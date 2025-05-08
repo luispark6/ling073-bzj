@@ -1,0 +1,637 @@
+# Morphological Transducer for Belize Kriol English
+
+# Part of speech categories
+# <n>      # Noun
+# <v>      # Verb
+# <adj>    # Adjective
+# <num>    # Numeral
+# <prn>    # pronoun
+# <dem>    # demonstrative Adjective
+# <advl>   # adverbialisation
+
+# <sent>   # Sentence-ending punctuation
+# <guio>   # Hyphen
+# <cm>     # Comma
+# <apos>   # Apostrophe
+# <quot>   # Quotation mark
+# <lquot>  # Left quotation mark
+# <rquot>  # Right quotation mark
+# <lpar>   # Left parenthesis
+# <rpar>   # Right parenthesis
+
+# Number morphology
+# <pl>     # Plural
+# <sg>     # Singular
+
+# Tenses
+# <past>   # past tense
+# <fut>    # future tense
+# <pf>     # past future tense
+# <pp>     # past perfect
+
+# Point of view
+# <p1>     # first person
+# <p2>     # second person
+# <p3>     # third person
+
+#Onomatopoeia
+# <ono>
+
+#Negative
+# <neg>
+
+#Pronominal-Adjective
+# <proadj>
+
+#Salutation
+# <sal>
+
+#Honorifics
+# <hon>
+
+
+
+# Other symbols
+# >        # Morpheme boundary
+
+###############################################################################
+###                       M O R P H O T A C T I C S                         ###
+###############################################################################
+
+
+PATTERNS
+#N-Two
+#N-Specific N-Stems-Z [ <n>: ] N-Plural-Z? Adj-Stems [ <adj>: ] Degr-Adv?
+V-Auxilary [ <vaux>: ] V-Neg? 
+Verbs 
+PRN-Stems(1) [ <prn>: ] PRN-Stems(2): PRN-Stems(3): Reflexive? 
+PRN-Stems2(1) [ <prn>: ] PRN-Stems2(2): PRN-Stems2(3): Emphasis? 
+N-Stems-Limited [ <n>: ] N-Plural-Limited?
+N-Two
+N-Specific
+N-Stems-Z [ <n>: ] N-Plural-Z?
+Adj-Stems [ <adj>: ] Degr-Adv?
+Adj-Redup-Stems [ <adj>: ] Redup?
+Number
+Punctuation
+Determiners [ <det>: ] 
+Adv [ <adv>: ]
+Proper-N [ <n>: ]
+Prepositions [ <pr>: ] 
+Possesive-Pronoun(1) [ <prn>: ] Possesive-Pronoun(2)
+Interrogative-PRN(1) [ <prn>: ] Interrogative-PRN(2)
+Interjection [ <ij>: ]
+Interrogative-ADV(1) [ <adv>: ] Interrogative-ADV(2)
+Conjuction [ <cnjcoo>: ]
+Onomatopoeia [<ono>: ]
+Negative [<neg>: ]
+Pronominal-Adj [<proadj>: ]
+Salutation [<sal>: ]
+Honorifics [<hon>: ]
+
+LEXICON V-Auxilary  #auxilary verbs
+kud:kud     
+ku:ku
+shud:shud   
+wud:wud  
+kaa:kaa
+mos:mos
+doz:doz
+kuda:kuda
+
+LEXICON V-Neg    #negation of auxilary verbs
+<neg>:>n
+
+
+PATTERN Verbs #initializing v-base pattern for verb tenses
+
+V-Base
+
+PATTERN V-Base #defining v-base pattern for verb tenses
+
+V-Stems(1) V-Stems(2):
+V-Prefixes(1) V-Stems(1) V-Stems(2): V-Prefixes(2)
+
+
+LEXICON V-Prefixes(2) #the verbs to apply prefix tense
+
+:mi\ >   <past>:
+:wahn\ > <fut>:
+:mi\ wahn\ >  <pf>:
+:don\ >   <pp>:
+
+LEXICON V-Stems(2) 
+
+tel:tel      <v>
+seh:seh      <v>
+chreet:chreet <v> 
+si:si   <v>
+sayv:sayv  <v>
+shoa:shoa  <v>
+geh:geh    <v>
+hapm:hapm  <v>
+rayz:rayz  <v>
+prayz:prayz <v>
+tink:tink <v>
+andastan:andastan <v>
+rifyooz:rifyooz <v>
+aksep:aksep <v>
+teech:teech <v>
+waahn:waahn <v>
+du:du <v>
+bileev:bileev <v>
+paint:paint <v>
+akyooz:akyooz <v>
+sin:sin <v>
+si:si <v>
+jomp:jomp <v>
+heel:heel <v>
+bee:bee <v>
+staat:staat <v>
+fala:fala <v>
+need:need <v>
+bles:bles <v>
+satisfai:satisfai <v>
+kleen:kleen <v>
+insolt:insolt <v>
+help:help <v>
+put:put <v>
+chaynj:chaynj <v>
+setl:setl <v>
+obay:obay <v>
+kaal:kaal <v>
+memba:memba <v>
+gif:gif <v>
+get:get <v>
+haal:haal <v>
+pich:pich <v>
+pay:pay <v>
+kil:kil <v>
+liv:liv <v>
+bilangz:bilangz <v>
+sway:sway <v>
+pramis:pramis <v>
+mek:mek <v>
+kohn:kohn <v>
+ga:ga <v>
+noa:noa <v>
+goh:goh <v>
+gi:gi <v>
+gaahn:gaahn <v>
+taak:taak <v>
+lov:lov <v>
+sehn:sehn <v>
+aks:aks <v>
+tek:tek <v>
+luk:luk <v>
+sen:sen <v>
+eet:eet <v>
+hoal:hoal <v>
+werk:werk <v>
+stan:stan <v>
+kyaahn:kyaahn <v>
+han:han <v>
+lef:lef <v>
+pray:pray <v>
+kom:kom <v>
+bai:bai <v>
+kip:kip <v>
+preech:preech <v>
+gaan:gaan <v>
+bring:bring <v>
+pik:pik <v>
+fain:fain <v>
+wership:wership <v>
+kehr:kehr <v>
+hafu:hafu <v>
+fool:fool <v>
+
+LEXICON PRN-Stems(3)
+
+mi:mi      <p1>    <sg>
+wi:wi      <p1>     <pl>
+yu:yu      <p2>     <sg>
+yoo:yoo    <p2>     <sg>
+mee:mee      <p1>    <sg>
+unu:unu    <p2>     <sg>
+Ah:Ah       <p1>    <sg>
+Ai:Ai       <p1>    <sg>
+dehn:dehn   <p3>   <pl>
+ih:ih       <p3>    <sg>
+
+
+LEXICON Reflexive
+
+<ref>:>self
+
+
+LEXICON N-Stems-Limited
+
+prafit:prafit     
+disaipl:disaipl   
+lai:lai   
+staar:staar
+peepl:peepl
+teecha:teecha
+prees:prees
+berd:berd
+flowaz:flowaz
+ting:ting
+daag:daag
+pig:pig
+perl:perl
+servant:servant
+ansesta:ansesta
+pa:pa
+devl:devl
+chroot:chroot
+finga:finga
+sin:sin
+Izrel:Izrel
+kingdom:kingdom
+hevn:hevn
+taim:taim
+saalt:saalt
+evribadi:evribadi
+werl:werl
+bowl:bowl
+plays:plays
+enibadi:enibadi
+breda:breda
+fool:fool
+meetn:meeting
+boat:boat
+nyooz:nyooz
+krowd:krowd
+hil:hil
+sohnbadi:sohnbadi
+sohnting:sohnting
+enimi:enimi
+waif:waif
+hozban:hozban
+adolchri:adolchri
+haat:haat
+paypa:paypa
+divoas:divoas
+marij:marij
+staar:staar
+seekrit:seekrit
+buk:buk
+famili:famili
+chree:chree
+baybi:baybi
+goal:goal
+frankinsens:frankinsens
+mer:mer
+konchri:konchri
+rowt:rowt
+jreem:jreem
+aynjel:aynjel
+pikni:pikni
+nait:nait
+yaaz:yaaz
+dezert:dezert
+mesinja:mesinja
+kloaz:kloaz
+kyamil:kyamil
+hyaa:hyaa
+leda:leda
+belt:belt
+ways:ways
+honi:honi
+konchrisaid:konchrisaid
+jojment:jojment
+waata:waata
+mowt:mowt
+siti:siti
+pramis:pramis 
+it:it
+laif:laif
+evriting:evriting
+nobadi:nobadi
+Spirit:Spirit
+ton:ton
+powa:powa
+badi:badi
+fayt:fayt
+cherch:cherch
+hows:hows
+hed:hed
+leta:leta
+templ:templ
+nayhn:nayhn
+Skripcha:Skripcha
+king:king
+
+LEXICON N-Plural-Limited
+<pl>:>\ dehn
+
+
+PATTERN N-Two
+
+N-Two-Base
+
+PATTERN N-Two-Base
+
+N-Two-Stems(1) N-Two-Stems(2):
+N-Two-Prefixes(1) N-Two-Stems(1) N-Two-Stems(2): N-Two-Prefixes(2)
+
+
+LEXICON N-Two-Prefixes(2)
+
+:too\ >   <du>:
+
+LEXICON N-Two-Stems(2)
+
+man:man      <n>
+son:son      <n>
+boy:boy      <n>
+
+
+PATTERN N-Specific
+
+N-Specific-Base
+
+PATTERN N-Specific-Base
+
+N-Specific-Stems(1) N-Specific-Stems(2):
+N-Specific-Prefixes(1) N-Specific-Stems(1) N-Specific-Stems(2): N-Specific-Prefixes(2)
+
+
+LEXICON N-Specific-Prefixes(2)
+
+:dehn\ >   <pl>:
+
+LEXICON N-Specific-Stems(2)
+
+peepl:peepl      <n>
+bred:bred      <n>
+ansa:ansa     <n>
+gif:gif         <n>
+jrap:jrap   <n>
+
+
+LEXICON N-Stems-Z
+
+day:day     
+werd:werd   
+ting:ting   
+
+LEXICON N-Plural-Z
+<pl>:>z
+
+
+LEXICON Adj-Stems 
+haad:haad     
+egzsak:egzsak   
+nay:nay   
+grayta:grayta
+ded:ded
+free:free
+chroo:chroo
+aal:aal
+sayhn:sayhn
+gud:gud
+ada:ada
+eevn:eevn
+moa:moa
+sohn:sohn
+fos:fos
+Jooish:Jooish
+lang:lang
+oan:oan
+bad:bad
+kaina:kaina
+meen:meen
+aan:aan
+rong:rong
+Hoali:Hoali
+anada:anada
+lee:lee
+Joo:Joo
+
+LEXICON Degr-Adv
+<advl>:>li
+
+
+
+LEXICON PRN-Stems2(3)
+
+mi:m{i}      <p1>    <sg>
+wi:w{i}      <p1>     <pl>
+yu:y{u}      <p2>     <sg>
+
+LEXICON Emphasis
+:>ee
+:>oo
+
+LEXICON Adj-Redup-Stems
+kwik:kwik 
+big:big 
+fool:fool
+
+LEXICON Redup
+<advl>:>\ kwik
+<advl>:>\ big
+<advl>:>\ fool
+
+
+LEXICON Determiners
+di:di 
+
+LEXICON Adv
+how:how
+How:How 
+den:den
+hihn:hihn
+ahn:ahn
+now:now
+Laik:Laik
+laik:laik
+deh:deh
+wen:wen
+dis:dis
+rait:rait
+neva:neva
+bak:bak
+jos:jos
+way:way
+oanli:oanli
+ya:ya
+az:az
+gens:gens
+agen:agen
+stil:stil
+afta:afta
+
+LEXICON Proper-N
+Faada:Faada
+Wan:Wan
+wan:wan
+Gaad:Gaad
+Laa:Laa
+Dekapolis:Dekapolis
+Gyalilee:Gyalilee
+Jaadn:Jaadn
+Siriya:Siriya
+Jeezas:Jeezas
+Betlihem:Betlihem
+Herod:Herod
+Mayri:Mayri
+Joazef:Joazef
+Judeeya:Judeeya
+Jeroosalem:Jeroosalem
+Krais:Krais
+Mesaiya:Mesaiya
+Eejip:Eejip
+Machyu:Machyu
+Peeta:Peeta
+Jan:Jan
+Look:Look
+Mak:Mak
+Roamanz:Roamanz
+Korintyanz:Korintyanz
+Filipiyanz:Filipiyanz
+Timoti:Timoti
+Heebrooz:Heebrooz
+Jaymz:Jaymz
+Dayvid:Dayvid
+Aizak:Aizak
+Jaykop:Jaykop
+Jerimaiya:Jerimaiya
+Nazaret:Nazaret
+Laad:Laad
+Paal:Paal
+Maak:Maak
+Moaziz:Moaziz
+Jooz:Jooz
+Aybraham:Aybraham
+
+
+LEXICON Prepositions
+da:da
+Da:Da
+dan:dan
+fi:fi
+fahn:fahn
+dat:dat
+a:a
+pahn:pahn
+eena:eena
+tu:tu
+wid:wid
+op:op
+bowt:bowt
+owt:owt
+dong:dong
+oava:oava
+owta:owta
+monks:monks
+
+LEXICON Possesive-Pronoun(2)
+mai:mai <pos>:
+wee:wee  <pos>:
+yehr:yehr <pos>:     
+
+
+LEXICON Interrogative-PRN(2)
+weh:weh <itg>:
+hoo:hoo <itg>:
+wich:wich <itg>:
+Wich:Wich <itg>:
+
+LEXICON Interjection
+Wel:Wel
+wel:wel
+Soh:Soh
+soh:soh
+
+LEXICON Interrogative-ADV(2)
+Wai:Wai <itg>:
+wai:wai <itg>:
+
+LEXICON Conjuction
+Bot:Bot
+bot:bot
+if:if
+er:er
+bikaaz:bikaaz
+
+LEXICON Onomatopoeia
+kyakyakya:kyakyakya
+giddyup:giddyup
+aiy:aiy
+bam-brigidim-buf:bam-brigidim-buf
+bigidip:bigidip
+
+LEXICON Negative
+nat:nat
+noh:noh
+nag:nag
+not:not
+no:no
+notn:notn
+
+LEXICON Pronominal-Adj
+dehndeh:dehndeh
+dehnya:dehnya
+hoofa:hoofa
+mai:mai
+
+LEXICON Salutation
+aarait:aarait
+dudu-daalin:dudu-daalin
+gud-nait:gud-nait
+gudbai:gudbai
+heloa:heloa
+maanin:maanin
+
+
+LEXICON Honorifics
+mis:mis
+misa:misa
+mista:mista
+
+
+PATTERN Number
+Numeral [<num>:]
+
+LEXICON Numeral
+/([0123456789])+/
+/([0123456789])+[.,]([0123456789])+/
+
+LEXICON Punctuation
+
+.<sent>:.
+..<sent>:..
+...<sent>:...
+;<sent>:;
+\:<sent>:\:
+!<sent>:!
+-<guio>:-
+—<guio>:—
+,<cm>:,
+?<sent>:? 
+'<apos>:'
+"<quot>:"
+«<lquot>:«
+»<rquot>:»
+”<rquot>:”
+“<lquot>:“
+(<lpar>:(
+\]<rpar>:\]
+\[<lpar>:\[
+)<rpar>:)
+\\<sent>:\\
+\/<sent>:\/
+
+
+# Resources:
+# https://github.com/apertium/lexd/blob/master/Usage.md
+# https://wiki.apertium.org/wiki/List_of_symbols
+# https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+# https://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+# https://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+# https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+# https://github.com/hfst/
+# https://wiki.apertium.org/wiki/Hfst

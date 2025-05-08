@@ -1,0 +1,11 @@
+^tel<v><past>$
+^seh<v><past>$
+^chreet<v><past>$
+^sayv<v><fut>$
+^shoa<v><fut>$
+^si<v><fut>$
+^geh<v><pf>$
+^hapm<v><pf>$
+^seh<v><pp>$
+^tel<v><pp>$
+^rayz<v><pp>$

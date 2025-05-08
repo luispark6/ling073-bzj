@@ -1,0 +1,3 @@
+^haad<adj><advl>$
+^egzsak<adj><advl>$
+^nay<adj><advl>$

@@ -1,0 +1,3 @@
+^kwik<adj><advl>$
+^big<adj><advl>$
+^fool<adj><advl>$

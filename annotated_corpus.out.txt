@@ -1,0 +1,401 @@
+"<Wai>"
+	"Wai" adv
+"<unu>"
+	"unu" aux
+"<noh>"
+	"noh" adv
+"<andastan>"
+	"andastan" v
+"<weh>"
+	"weh" prn
+"<Ah>"
+	"Ah" prn
+"<di>"
+	"di" prn
+"<seh>"
+	"seh" v
+? 
+"<Da>"
+	"Da" prn
+"<kaa>"
+	"kaa" aux
+"<unu>"
+	"unu" aux
+"<rifyooz>"
+	"rifyooz" v
+"<fi>"
+	"fi" pr
+"<aksep>"
+	"aksep" v
+"<di>"
+	"di" det
+"<ting dehn>"
+	"ting" n pl
+"<weh>"
+	"weh" prn
+"<Ah>"
+	"Ah" prn
+"<di>"
+	"di" det
+"<teech>"
+	"teech" v
+"<unu>"
+	"unu" aux
+. 
+"<Unu>"
+	"Unu" aux
+"<da>"
+	"da" aux
+"<fahn>"
+	"fahn" pr
+"<fi>"
+	"fi" pr
+"<unu>"
+	"unu" pr 
+"<pa>"
+	"pa" n
+"<weh>"
+	"weh" prn
+"<da>"
+	"da" prn
+"<di>"
+	"di" det
+"<devl>"
+	"devl" n
+, 
+"<ahn>"
+	"ahn"  cnj 
+"<unu>"
+	"unu" prn
+"<waahn>"
+	"waahn" v
+"<du>"
+	"du" v
+"<weh>"
+	"weh" prn
+"<hihn>"
+	"hihn" prn
+"<seh>"
+	"seh" v
+. 
+"<Hihn>"
+	"Hihn" prn
+"<da>"
+	"da" prn
+-
+"<mi>"
+	"mi" prn p1 sg
+"<wahn>"
+	"wahn" v
+"<merdara>"
+	"merdara" n
+"<fahn>"
+	"fahn" prep
+"<di>"
+	"di" det
+"<staat>"
+	"staat" n
+, 
+"<ahn>"
+	"ahn" cnj
+"<hihn>"
+	"hihn" prn
+"<neva>"
+	"neva" adv
+"<yet>"
+	"yet" adv
+"<mi>"
+	"mi" prn p1 sg
+"<waahn>"
+	"waahn" v
+"<ga>"
+	"ga" v
+"<notn>"
+	"notn" n 
+"<fi>"
+	"fi" pr
+"<du>"
+	"du" v
+"<wid>"
+	"wid" pr
+"<di>"
+	"di" det
+"<chroot>"
+	"chroot" n
+, 
+"<kaa>"
+	"kaa" aux
+"<nat>"
+	"nat" adv
+"<wan>"
+	"wan" v
+"<pees>"
+	"pees" n
+"<a>"
+	"a" ind
+"<chroot>"
+	"chroot" n
+"<noh>"
+	"noh" adv
+"<deh>"
+	"deh" det
+"<eena>"
+	"eena" prep
+"<hihn>"
+	"hihn" prn
+. 
+"<Wen>"
+	"Wen" adv
+"<hihn>"
+	"hihn" prn
+"<di>"
+	"di" det
+"<tel>"
+	"tel" v
+"<lai>"
+	"lai" n
+, 
+"<ih>"
+	"ih" prn
+"<di>"
+	"di" det
+"<du>"
+	"du" prn
+"<it>"
+	"it" prn
+"<kaa>"
+	"kaa" aux
+"<da>"
+	"da" da prn
+"<ih>"
+	"ih" prn
+"<naycha>"
+	"naycha" n
+"<fi>"
+	"fi" pr 
+"<tel>"
+	"tel" v
+"<lai>"
+	"lai" n
+, 
+"<ahn>"
+	"ahn" cnj
+"<hihn>"
+	"hihn" prn
+"<da>"
+	"da" prn
+"<di>"
+	"di" det
+"<pa>"
+	"pa" n
+"<a>"
+	"a" ind
+"<aala>"
+	"aala" prn
+"<di>"
+	"di" det
+"<lai dehn>"
+	"lai" n pl
+. 
+"<Bot>"
+	"Bot" n
+"<unu>"
+	"unu" aux
+"<si>"
+	"si" v
+, 
+"<now>"
+	"now" adv
+"<dat>"
+	"dat" prn
+"<Ai>"
+	"Ai" prn 
+"<di>"
+	"di" det
+"<tel>"
+	"tel" v
+"<unu>"
+	"unu" aux
+"<di>"
+	"di" det
+"<chroot>"
+	"chroot" n
+, 
+"<unu>"
+	"unu" aux
+"<noh>"
+	"noh" v
+"<bileev>"
+	"bileev" v
+"<mi>"
+	"mi" prn p1 sg
+. 
+"<46>"
+	"46" n
+"<Wich>"
+	"Wich" prn
+"<wan>"
+	"wan" v
+"<a>"
+	"a" ind
+"<unu>"
+	"unu" aux
+"<ku>"
+	"ku" aux
+"<paint>"
+	"paint" v
+"<finga>"
+	"finga" n 
+"<pahn>"
+	"pahn" prep
+"<mee>"
+	"mi" prn p1
+"<ahn>"
+	"ahn" cnj
+"<akyooz>"
+	"akyooz" v
+"<mi seh>"
+	"seh" v past
+"<Ai>"
+	"Ai" prn
+"<sin>"
+	"sin" v
+	"sin" n
+? 
+"<Laik>"
+	"Laik" cnj
+"<how>"
+	"how" adv
+"<Ai>"
+	"Ai" prn
+"<di>"
+	"di" det
+"<tel>"
+	"tel" v
+"<di>"
+	"di" det
+"<chroot>"
+	"chroot" v
+, 
+"<wai>"
+	"wai" adv
+"<unu>"
+	"unu" aux
+"<noh>"
+	"noh" aux
+"<bileev>"
+	"bileev" v
+"<mi>"
+	"mi" prn p1 sg
+? 
+"<47>"
+	"47" n
+"<Enibadi>"
+	"Enibadi" n
+"<weh>"
+	"weh"  adv
+"<da>"
+	"da" prn
+"<Gaad>"
+	"Gaad" n
+"<pikni>"
+	"pikni" v
+"<lisn>"
+	"lisn" v
+"<tu>"
+	"tu" prep
+"<weh>"
+	"weh" adv
+"<Gaad>"
+	"Gaad" n
+"<seh>"
+	"seh" v
+. 
+"<Di>"
+	"Di" det
+"<reezn>"
+	"reezn" v
+	"reezn" n
+"<wai>"
+	"wai" adv
+"<unu>"
+	"unu" aux
+"<noh>"
+	"noh" aux
+"<yehr>"
+	"yehr" adj
+"<weh>"
+	"weh" adv
+"<Gaad>"
+	"Gaad" n
+"<seh>"
+	"seh" v
+, 
+"<da>"
+	"da" prn
+"<bikaa>"
+	"bikaa" cnj
+"<unu>"
+	"unu" aux
+"<da>"
+	"da" prn
+"<noh>"
+	"noh" aux
+"<fi>"
+	"fi" pr
+"<hihn>"
+	"hihn" prn
+"<pikni>"
+	"pikni" v
+.” 
+"<Jeezas>"
+	"Jeezas" n
+"<taak>"
+	"taak" v
+"<bowt>"
+	"bowt" pr
+"<Aybraham>"
+	"Aybraham" n
+"<48>"
+	"48" n
+"<Di>"
+	"Di" det
+"<Jooish>"
+	"Jooish" adj
+"<leeda>"
+	"leeda" n
+"<dehn ansa>"
+	"ansa" n pl
+"<Jeezas>"
+	"Jeezas" n
+"<seh>"
+	"seh" v
+, “
+"<Yoo>"
+	"yu" prn p2
+"<noh>"
+	"noh" aux
+"<tink>"
+	"tink" v
+"<seh>"
+	"seh" v
+"<wee>"
+	"wi" prn p1
+"<rait>"
+	"rait" adj
+"<wen>"
+	"wen" adv
+"<wee>"
+	"wi" prn p1
+"<seh>"
+	"seh" v
+"<dat>"
+	"dat" prn
+"<yoo>"
+	"yu" prn p2
+"<da>"
+	"da" prn
+"<fahn>"
+	"fahn" pr
+"<Samayrya>"
+	"Samayrya" n

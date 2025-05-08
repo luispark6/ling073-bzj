@@ -1,0 +1,102 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../bzj.autogen.hfst
+    Morph: ../bzj.automorf.hfst
+Tests:
+  Auxiliary Verb Negation:
+    kud<vaux><neg>:
+    - kudn
+    shud<vaux><neg>:
+    - shudn
+    wud<vaux><neg>:
+    - wudn
+  Degree Adverbs:
+    egzsak<adv>:
+    - egzsakli
+    haad<adv>:
+    - haadli
+    nay<adv>:
+    - nayli
+  Demonstrative Adjectives:
+    da<adj><dem><pl>:
+    - dehn
+    da<adj><dem><sg>:
+    - da
+    dis<adj><dem><pl>:
+    - dehn
+    dis<adj><dem><sg>:
+    - dis
+  Possessive Pronouns:
+    ih<prn><p3><sg><f>:
+    - fi shee
+    ih<prn><p3><sg><m>:
+    - fi hihn
+    wi<prn><p2><pl>:
+    - fo wee
+  Pronouns:
+    mi<prn><p1>:
+    - mee
+    mi<prn><p1><sg><ref>:
+    - miself
+    wi<prn><p1>:
+    - wee
+    wi<prn><p1><pl><ref>:
+    - wiself
+    yu<prn><p2>:
+    - yoo
+    yu<prn><p2><sg><ref>:
+    - yuself
+  Reduplication:
+    big<adj><advl>:
+    - big big
+    fool<adj><advl>:
+    - fool fool
+    kwik<adj><advl>:
+    - kwik kwik
+  Regular Plurals:
+    boy<n><pl>:
+    - too boy
+    bred<n><pl>:
+    - dehn bred
+    day<n><pl>:
+    - dayz
+    disaipl<n><pl>:
+    - disaipl dehn
+    lai<n><pl>:
+    - lai dehn
+    man<n><pl>:
+    - too man
+    peepl<n><pl>:
+    - dehn peepl
+    prafit<n><pl>:
+    - prafit dehn
+    son<n><pl>:
+    - too son
+    ting<n><pl>:
+    - tingz
+    werd<n><pl>:
+    - werdz
+  Verb Tenses:
+    chreet<v><past>:
+    - mi chreet
+    geh<v><pf>:
+    - mi wahn geh
+    hapm<v><pf>:
+    - mi wahn hapm
+    rayz<n><pl>:
+    - don rayz
+    sayv<v><fut>:
+    - wahn sayv
+    seh<v><past>:
+    - mi seh
+    seh<v><pp>:
+    - don seh
+    shoa<v><fut>:
+    - wahn shoa
+    si<n><pl>:
+    - wahn si
+    tel<v><past>:
+    - mi tel
+    tel<v><pp>:
+    - don tel

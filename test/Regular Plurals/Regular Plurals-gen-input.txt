@@ -1,0 +1,11 @@
+^prafit<n><pl>$
+^disaipl<n><pl>$
+^lai<n><pl>$
+^man<n><du>$
+^son<n><du>$
+^boy<n><du>$
+^peepl<n><pl>$
+^bred<n><pl>$
+^day<n><pl>$
+^werd<n><pl>$
+^ting<n><pl>$

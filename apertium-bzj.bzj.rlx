@@ -1,0 +1,99 @@
+# Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
+DELIMITERS = "<.>" ;
+
+# We can define sets for common tag clusters
+# LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST N = n ;
+LIST V = v ;
+LIST ADV = adv ;
+LIST ADJ = adj ;
+LIST PRN = prn ; 
+LIST DET = det ; 
+LIST YU = "yu" ; 
+LIST MI = "mi" ;
+LIST WI = "wi" ;
+
+SECTION
+# If there is a singular noun to the right, I cannot be a verb or noun.
+# REMOVE (n) OR (v) IF (1 (n s)) ;
+
+"<sin>" REMOVE N IF
+    (-1 N or ADV)
+;
+"<sin>" REMOVE V IF
+    (NOT -1 N)
+;
+
+
+"<gif>" REMOVE N IF
+    (-1 N or ADV)
+;
+"<gif>" REMOVE V IF
+    (NOT -1 N)
+;
+
+
+"<pramis>" REMOVE N IF
+    (-1 N or ADV)
+;
+"<pramis>" REMOVE V IF
+    (NOT -1 N)
+;
+
+"<fool>" REMOVE N IF
+    (-1 V OR PRN OR N)
+;
+"<fool>" REMOVE ADJ IF
+    (-1 V OR PRN OR N)
+;
+"<fool>" REMOVE V IF
+    (-1 DET)
+;
+"<fool>" REMOVE ADJ IF
+    (-1 DET)
+;
+"<fool>" REMOVE N IF
+    (NOT 1 ("fool"))
+;
+"<fool>" REMOVE V IF
+    (NOT 1 ("fool"))
+;
+
+"<yoo>" REMOVE YU IF
+    (0 ("yoo"))
+;
+"<Yoo>" REMOVE YU IF
+    (0 ("yoo"))
+;
+
+"<mee>" REMOVE MI IF
+    (0 ("mee"))
+;
+"<Mee>" REMOVE MI IF
+    (0 ("mee"))
+;
+"<wee>" REMOVE WI IF
+    (0 ("wee"))
+;
+"<Wee>" REMOVE WI IF
+    (0 ("wee"))
+;
+
+
+
+#REMOVE Noun
+#	IF (0 Noun OR V
+#		LINK 1 Prn OR Det);
+
+
+# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
+# SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+
+# Resources:
+# http://visl.sdu.dk/cg3.html
+# http://groups.google.com/group/constraint-grammar
+# http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
+# https://wiki.apertium.org/wiki/Constraint_Grammar
+# https://wiki.apertium.org/wiki/Apertium_and_Constraint_Grammar
+# Wiki Page:
+# https://wikis.swarthmore.edu/ling073/Belize_Creole_and_English/Ambiguity_Resolution#Initial_Evaluation_of_Ambiguity

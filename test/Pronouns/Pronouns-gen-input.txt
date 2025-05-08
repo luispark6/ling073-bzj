@@ -1,0 +1,6 @@
+^mi<prn><p1><sg><ref>$
+^wi<prn><p1><pl><ref>$
+^yu<prn><p2><sg><ref>$
+^mi<prn><p1>$
+^wi<prn><p1>$
+^yu<prn><p2>$

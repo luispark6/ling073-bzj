@@ -1,0 +1,8 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+srcdir=${prefix}/share/apertium/apertium-bzj
+
+Name: apertium-bzj
+Description: Finite-state morphological transducer and constraint grammar for Belize Kriol English
+Version: 0.1.0
+

@@ -1,0 +1,4 @@
+^dis<adj><dem><sg>$
+^da<adj><dem><sg>$
+^dis<adj><dem><pl>$
+^da<adj><dem><pl>$
